@@ -1,0 +1,64 @@
+﻿@model Aplicacao_Web.Models.Categoria
+
+@{
+    ViewData["Title"] = "Excluir Categoria";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="d-flex align-items-center mb-3">
+                <h1 class="display-6 text-danger">Excluir Categoria</h1>
+            </div>
+
+            <div class="alert alert-warning shadow-sm border-0 d-flex align-items-center" role="alert">
+                <i class="bi bi-exclamation-triangle-fill fs-4 me-3"></i>
+                <div>
+                    <strong>Atenção!</strong> Tem certeza que deseja excluir este registro? Esta ação não pode ser desfeita.
+                </div>
+            </div>
+
+            <div class="card shadow-sm border-0 mt-3">
+                <div class="card-header bg-light">
+                    <h4 class="mb-0 text-secondary">
+                        <i class="bi bi-trash"></i> Confirmar Exclusão
+                    </h4>
+                </div>
+                <div class="card-body p-4">
+                    <dl class="row mb-0">
+                        <dt class="col-sm-3 text-secondary">
+                            @Html.DisplayNameFor(model => model.Nome)
+                        </dt>
+                        <dd class="col-sm-9 fw-bold">
+                            @Html.DisplayFor(model => model.Nome)
+                        </dd>
+
+                        <hr class="my-3 text-muted" />
+
+                        <dt class="col-sm-3 text-secondary">
+                            @Html.DisplayNameFor(model => model.Descricao)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.Descricao)
+                        </dd>
+                    </dl>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-end py-3">
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="Id" />
+
+                        <a asp-action="Index" class="btn btn-outline-secondary me-2">
+                            <i class="bi bi-arrow-left"></i> Cancelar
+                        </a>
+
+                        <button type="submit" class="btn btn-danger px-4 shadow-sm">
+                            <i class="bi bi-trash3"></i> Excluir Definitivamente
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">

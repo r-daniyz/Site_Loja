@@ -1,0 +1,306 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\aplicacao_web\\aplicacao_web\\aplicacao_web\\views\\produtos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|solutionrelative:aplicacao_web\\views\\produtos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\aplicacao_web\\aplicacao_web\\aplicacao_web\\views\\categorias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|solutionrelative:aplicacao_web\\views\\categorias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\aplicacao_web\\aplicacao_web\\aplicacao_web\\views\\produtos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|solutionrelative:aplicacao_web\\views\\produtos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\aplicacao_web\\aplicacao_web\\aplicacao_web\\views\\produtos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|solutionrelative:aplicacao_web\\views\\produtos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\aplicacao_web\\aplicacao_web\\aplicacao_web\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|solutionrelative:aplicacao_web\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\aplicacao_web\\aplicacao_web\\aplicacao_web\\views\\produtos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|solutionrelative:aplicacao_web\\views\\produtos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Migrations\\20260303104012_CriarTabelinhas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Aplicacao_Web\\Migrations\\20260303104012_CriarTabelinhas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\aplicacao_web\\aplicacao_web\\aplicacao_web\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|solutionrelative:aplicacao_web\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\aplicacao_web\\aplicacao_web\\aplicacao_web\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|solutionrelative:aplicacao_web\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Migrations\\20260303090341_CriatTabelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Aplicacao_Web\\Migrations\\20260303090341_CriatTabelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\aplicacao_web\\aplicacao_web\\aplicacao_web\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|solutionrelative:aplicacao_web\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\aplicacao_web\\aplicacao_web\\aplicacao_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|solutionrelative:aplicacao_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\aplicacao_web\\aplicacao_web\\aplicacao_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|solutionrelative:aplicacao_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Migrations\\20260303090201_CriarTabelinhas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Aplicacao_Web\\Migrations\\20260303090201_CriarTabelinhas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\aplicacao_web\\aplicacao_web\\aplicacao_web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|solutionrelative:aplicacao_web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|c:\\users\\danielrusso124\\onedrive\\algoritmo 2c\\aplicacao_web\\aplicacao_web\\aplicacao_web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CF500A6-19DD-4CD4-B8D5-D20C42A5FA28}|Aplicacao_Web\\Aplicacao_Web.csproj|solutionrelative:aplicacao_web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Migrations\\20260302150257_Tabelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260302150257_Tabelas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Views\\Categorias\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Views\\Categorias\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Views\\Categorias\\Delete.cshtml",
+              "RelativeToolTip": "Aplicacao_Web\\Views\\Categorias\\Delete.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T10:54:59.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Views\\Produtos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Views\\Produtos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Views\\Produtos\\Delete.cshtml",
+              "RelativeToolTip": "Aplicacao_Web\\Views\\Produtos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T10:53:43.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Views\\Produtos\\Details.cshtml",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Views\\Produtos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Views\\Produtos\\Details.cshtml",
+              "RelativeToolTip": "Aplicacao_Web\\Views\\Produtos\\Details.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDAAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T10:51:17.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Views\\Produtos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Views\\Produtos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Views\\Produtos\\Edit.cshtml",
+              "RelativeToolTip": "Aplicacao_Web\\Views\\Produtos\\Edit.cshtml",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAowHQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T10:46:37.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260303104012_CriarTabelinhas.cs",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Migrations\\20260303104012_CriarTabelinhas.cs",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Migrations\\20260303104012_CriarTabelinhas.cs",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Migrations\\20260303104012_CriarTabelinhas.cs",
+              "RelativeToolTip": "Aplicacao_Web\\Migrations\\20260303104012_CriarTabelinhas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T10:40:12.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Views\\Produtos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Views\\Produtos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Views\\Produtos\\Create.cshtml",
+              "RelativeToolTip": "Aplicacao_Web\\Views\\Produtos\\Create.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAowFgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T10:06:50.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Views\\Produtos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Views\\Produtos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Views\\Produtos\\Index.cshtml",
+              "RelativeToolTip": "Aplicacao_Web\\Views\\Produtos\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T09:55:19.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260303090341_CriatTabelas.cs",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Migrations\\20260303090341_CriatTabelas.cs",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Migrations\\20260303090341_CriatTabelas.cs",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Migrations\\20260303090341_CriatTabelas.cs",
+              "RelativeToolTip": "Aplicacao_Web\\Migrations\\20260303090341_CriatTabelas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T09:03:41.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20260303090201_CriarTabelinhas.cs",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Migrations\\20260303090201_CriarTabelinhas.cs",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Migrations\\20260303090201_CriarTabelinhas.cs",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Migrations\\20260303090201_CriarTabelinhas.cs",
+              "RelativeToolTip": "Aplicacao_Web\\Migrations\\20260303090201_CriarTabelinhas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T09:02:01.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260302150257_Tabelas.cs",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Migrations\\20260302150257_Tabelas.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260302150257_Tabelas.cs",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Migrations\\20260302150257_Tabelas.cs",
+              "RelativeToolTip": "Migrations\\20260302150257_Tabelas.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T15:02:57.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Aplicacao_Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T09:53:24.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\appsettings.json",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\appsettings.json",
+              "RelativeToolTip": "Aplicacao_Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-27T09:49:27.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "Aplicacao_Web\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwLAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:47:00.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Program.cs",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Program.cs",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Program.cs",
+              "RelativeToolTip": "Aplicacao_Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:43:50.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Aplicacao_Web\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:32:40.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Models\\Categoria.cs",
+              "RelativeToolTip": "Aplicacao_Web\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:04:21.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "Aplicacao_Web\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\danielrusso124\\OneDrive\\Algoritmo 2C\\Aplicacao_Web\\Aplicacao_Web\\Aplicacao_Web\\Models\\Produto.cs",
+              "RelativeToolTip": "Aplicacao_Web\\Models\\Produto.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:04:05.345Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

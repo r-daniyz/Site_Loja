@@ -1,0 +1,95 @@
+﻿@model Aplicacao_Web.Models.Produto
+
+@{
+    ViewData["Title"] = "Detalhes - " + Model.Nome;
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="d-flex align-items-center mb-3">
+                <h1 class="display-6 text-primary">Detalhes: @Model.Nome</h1>
+            </div>
+
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-light">
+                    <h4 class="mb-0 text-secondary">
+                        <i class="bi bi-info-circle"></i> Informações do Produto
+                    </h4>
+                </div>
+                <div class="card-body p-4">
+                    <div class="row">
+                        <div class="col-md-4 text-center border-end">
+                            @if (!string.IsNullOrEmpty(Model.ImagemUrl))
+                            {
+                                <img src="~/imagens/@Model.ImagemUrl" class="img-fluid rounded shadow-sm mb-3" style="max-height: 300px; object-fit: contain;" />
+                            }
+                            else
+                            {
+                                <div class="bg-light rounded d-flex flex-column align-items-center justify-content-center mb-3" style="height: 250px;">
+                                    <i class="bi bi-image text-muted" style="font-size: 4rem;"></i>
+                                    <p class="text-muted">Sem imagem disponível</p>
+                                </div>
+                            }
+                            <div class="mt-2">
+                                <span class="badge bg-secondary p-2 w-100">SKU: @Model.SKU</span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8 ps-md-4">
+                            <dl class="row">
+                                <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Nome)</dt>
+                                <dd class="col-sm-8 fw-bold">@Html.DisplayFor(model => model.Nome)</dd>
+
+                                <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Preco)</dt>
+                                <dd class="col-sm-8 text-success fw-bold">
+                                    @string.Format(System.Globalization.CultureInfo.GetCultureInfo("pt-PT"), "{0:C}", Model.Preco)
+                                </dd>
+
+                                <dt class="col-sm-4 text-muted">Stock Disponível</dt>
+                                <dd class="col-sm-8">
+                                    @if (Model.Estoque <= 5)
+                                    {
+                                        <span class="badge bg-danger">@Model.Estoque unidades (Baixo)</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-info text-dark">@Model.Estoque unidades</span>
+                                    }
+                                </dd>
+
+                                <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Categoria)</dt>
+                                <dd class="col-sm-8">
+                                    <span class="badge rounded-pill bg-secondary">@Model.Categoria.Nome</span>
+                                </dd>
+
+                                <dt class="col-sm-4 text-muted">Data de Registo</dt>
+                                <dd class="col-sm-8">@Model.DataCadastro.ToString("dd/MM/yyyy HH:mm")</dd>
+
+                                <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Descricao)</dt>
+                                <dd class="col-sm-8">
+                                    <p class="text-dark bg-light p-2 rounded border" style="min-height: 80px;">
+                                        @(string.IsNullOrEmpty(Model.Descricao) ? "Nenhuma descrição fornecida." : Model.Descricao)
+                                    </p>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="d-flex justify-content-end gap-2 mt-4">
+                        <a asp-action="Index" class="btn btn-outline-secondary">
+                            <i class="bi bi-arrow-left"></i> Voltar à Lista
+                        </a>
+                        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary px-4">
+                            <i class="bi bi-pencil"></i> Editar Produto
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">

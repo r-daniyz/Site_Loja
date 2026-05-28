@@ -1,0 +1,74 @@
+﻿@model Aplicacao_Web.Models.Produto
+
+@{
+    ViewData["Title"] = "Eliminar Produto - " + Model.Nome;
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="alert alert-danger d-flex align-items-center shadow-sm mb-4" role="alert">
+                <i class="bi bi-exclamation-triangle-fill fs-3 me-3"></i>
+                <div>
+                    <h4 class="alert-heading mb-1">Atenção!</h4>
+                    <span>Tem a certeza que deseja eliminar permanentemente o produto <strong>@Model.Nome</strong>? Esta ação não pode ser desfeita.</span>
+                </div>
+            </div>
+
+            <div class="card shadow-sm border-0 mb-4">
+                <div class="card-header bg-white py-3">
+                    <h5 class="mb-0 text-dark">Resumo do Produto</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 text-center border-end">
+                            @if (!string.IsNullOrEmpty(Model.ImagemUrl))
+                            {
+                                <img src="~/imagens/@Model.ImagemUrl" class="img-thumbnail rounded shadow-sm" style="max-height: 120px;" />
+                            }
+                            else
+                            {
+                                <div class="bg-light rounded p-3 text-muted">
+                                    <i class="bi bi-image fs-1"></i>
+                                </div>
+                            }
+                        </div>
+
+                        <div class="col-md-9 ps-4">
+                            <dl class="row mb-0">
+                                <dt class="col-sm-3 text-muted">@Html.DisplayNameFor(model => model.Nome)</dt>
+                                <dd class="col-sm-9 fw-bold">@Model.Nome</dd>
+
+                                <dt class="col-sm-3 text-muted">Preço</dt>
+                                <dd class="col-sm-9 text-danger fw-bold">
+                                    @string.Format(System.Globalization.CultureInfo.GetCultureInfo("pt-PT"), "{0:C}", Model.Preco)
+                                </dd>
+
+                                <dt class="col-sm-3 text-muted">Categoria</dt>
+                                <dd class="col-sm-9">@Model.Categoria?.Nome</dd>
+
+                                <dt class="col-sm-3 text-muted">SKU</dt>
+                                <dd class="col-sm-9 text-uppercase">@Model.SKU</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-light d-flex justify-content-end gap-2 py-3">
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="Id" />
+
+                        <a asp-action="Index" class="btn btn-outline-secondary">
+                            <i class="bi bi-x-circle"></i> Cancelar
+                        </a>
+
+                        <button type="submit" class="btn btn-danger px-4 shadow-sm">
+                            <i class="bi bi-trash"></i> Confirmar Eliminação
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">

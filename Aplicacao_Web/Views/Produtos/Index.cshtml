@@ -1,0 +1,94 @@
+﻿@model IEnumerable<Aplicacao_Web.Models.Produto>
+
+@{
+    ViewData["Title"] = "Produtos";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1 class="display-6 text-primary">Estoque de Produtos</h1>
+        <a asp-action="Create" class="btn btn-success shadow-sm">
+            <i class="bi bi-plus-circle"></i> Novo Produto
+        </a>
+    </div>
+
+    <div class="card shadow-sm border-0">
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th class="ps-4">@Html.DisplayNameFor(model => model.Nome)</th>
+                            <th>@Html.DisplayNameFor(model => model.Preco)</th>
+                            <th>@Html.DisplayNameFor(model => model.Estoque)</th>
+                            <th>@Html.DisplayNameFor(model => model.Categoria)</th>
+                            <th class="text-center">Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="ps-4">
+                                    <div class="d-flex align-items-center">
+                                        @if (!string.IsNullOrEmpty(item.ImagemUrl))
+                                        {
+                                            <img src="~/imagens/@item.ImagemUrl" class="rounded shadow-sm me-3"
+                                                 style="width: 50px; height: 50px; object-fit: cover; border: 1px solid #dee2e6;" />
+                                        }
+                                        else
+                                        {
+                                            <div class="bg-light rounded me-3 d-flex align-items-center justify-content-center border"
+                                                 style="width: 50px; height: 50px; color: #adb5bd;">
+                                                <i class="bi bi-image" style="font-size: 1.5rem;"></i>
+                                            </div>
+                                        }
+                                        <div>
+                                            <span class="fw-bold text-dark">@item.Nome</span><br />
+                                            <small class="text-secondary text-uppercase" style="font-size: 0.7rem;">@item.SKU</small>
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="fw-bold text-success">
+                                    @string.Format(System.Globalization.CultureInfo.GetCultureInfo("pt-PT"), "{0:C}", item.Preco)
+                                </td>
+
+                                <td>
+                                    @if (item.Estoque <= 5)
+                                    {
+                                        <span class="badge bg-danger">@item.Estoque (Baixo)</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-info text-dark">@item.Estoque</span>
+                                    }
+                                </td>
+
+                                <td>
+                                    <span class="badge rounded-pill bg-secondary">@item.Categoria.Nome</span>
+                                </td>
+
+                                <td class="text-center">
+                                    <div class="btn-group btn-group-sm">
+                                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-primary" title="Editar">
+                                            <i class="bi bi-pencil"></i> Editar
+                                        </a>
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info" title="Detalhes">
+                                            <i class="bi bi-eye"></i> Detalhes
+                                        </a>
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger" title="Excluir">
+                                            <i class="bi bi-trash"></i> Excluir
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
